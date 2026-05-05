@@ -11,7 +11,7 @@ html {
 body {
     background-color: #f6fbf2;
     color: #163322;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
@@ -27,17 +27,13 @@ body {
     }
 }
 
-button {
-    cursor: pointer;
-}
-
 a {
     color: inherit;
     text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font: 700 1.75rem 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .side-menu {
@@ -109,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner img {
-    width: min(28rem, 100%);
+    width: min(30rem, 100%);
     display: block;
 }
 
@@ -152,40 +148,50 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
 }
 
-.banner strong {
+.banner p {
     color: #1c3f2d;
     font-size: 1.05rem;
     line-height: 1.7;
 }
 
-.animal-sections {
+.animais {
     padding: 4rem 2rem;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
 }
 
-.animal-section {
+.animal {
     min-height: 13rem;
     padding: 1.5rem;
     scroll-margin-top: 1.5rem;
     background-color: #ffffff;
     border: 2px solid #d9efd9;
-    border-left: 0.45rem solid #26a269;
     border-radius: 0.5rem;
-    box-shadow: 0 0.75rem 1.5rem rgba(22, 51, 34, 0.08);
 }
 
-.animal-section h2 {
+.animal h2 {
     margin-bottom: 0.75rem;
     color: #123c35;
     font-size: 1.35rem;
 }
 
-.animal-section p {
+.animal p {
     color: #385244;
     font-size: 0.98rem;
     line-height: 1.6;
+}
+
+.pagina {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background-color: #f6fbf2;
+}
+
+.pagina h1 {
+    margin-bottom: 1rem;
+    color: #123c35;
+    font-size: 2.5rem;
 }
 
 @media screen and (max-width: 980px) {
@@ -244,12 +250,16 @@ h1, h2, h3, h4, h5, h6 {
         align-items: center;
     }
 
-    .animal-sections {
+    .animais {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .animal-section {
+    .animal {
         scroll-margin-top: 6rem;
+    }
+
+    .pagina {
+        padding: 2rem;
     }
 }
 
@@ -272,12 +282,16 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 2.7rem;
     }
 
-    .animal-sections {
+    .animais {
         padding: 2rem 1rem;
         grid-template-columns: 1fr;
     }
 
-    .animal-section {
+    .animal {
         scroll-margin-top: 9rem;
+    }
+
+    .pagina {
+        padding: 1rem;
     }
 }
