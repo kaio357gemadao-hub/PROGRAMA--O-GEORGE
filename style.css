@@ -15,6 +15,9 @@ body {
     overflow-x: hidden;
 }
 
+/* @MEDIA SCREEN AND: Define regras de "Responsividade". 
+   Diz ao navegador: "Se a tela for menor que X pixels, mude o visual para este aqui". */
+
 @media screen and (max-width: 1080px) {
     html {
         font-size: 93.75%;
@@ -35,6 +38,9 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
+
+/* SIDE-MENU: É o nome (classe) que você deu para a caixa do menu lateral. 
+   Tudo aqui dentro controla a cor verde, a largura e a posição fixa do menu. */
 
 .side-menu {
     width: 15rem;
@@ -89,6 +95,10 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(0.25rem);
 }
 
+/* PAGE-CONTENT: Nome da classe para o conteúdo principal. 
+   O "margin-left: 15rem" serve para empurrar o texto para a direita, 
+   evitando que ele fique escondido embaixo do menu lateral. */
+
 .page-content {
     margin-left: 15rem;
 }
@@ -131,6 +141,9 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 30rem;
 }
 
+/* EYEBROW: Nome da classe para aquele pequeno rótulo "BIOLOGIA" acima do título. 
+   O código aqui deixa ele com bordas arredondadas e fundo escuro. */
+   
 .eyebrow {
     width: fit-content;
     padding: 0.45rem 0.75rem;
