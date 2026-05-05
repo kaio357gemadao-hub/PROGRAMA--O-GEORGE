@@ -3,25 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reino Animalia</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="banner">
-        <div class="content">
-            <div class="left">
-                <strong>Esta página web abordará conteúdos relacionados ao Reino Animalia, incluoindo:
-                     políferos, cnidários, platelmintos, nematelmintos, moluscos, anelídeos, artrópodes, equinodermos e cordados. </strong>
+    <aside class="side-menu" aria-label="Menu dos grupos do Reino Animalia">
+        <h2>Animalia</h2>
+        <span>Grupos do reino</span>
+
+        <nav>
+            <a href="#poriferos">Poríferos</a>
+            <a href="#cnidarios">Cnidários</a>
+            <a href="#platelmintos">Platelmintos</a>
+            <a href="#nematelmintos">Nematelmintos</a>
+            <a href="#moluscos">Moluscos</a>
+            <a href="#anelideos">Anelídeos</a>
+            <a href="#artropodes">Artrópodes</a>
+            <a href="#equinodermos">Equinodermos</a>
+            <a href="#cordados">Cordados</a>
+        </nav>
+    </aside>
+
+    <main class="page-content">
+        <section class="banner" id="inicio">
+            <div class="content">
+                <div class="left">
+                    <span class="eyebrow">Biologia</span>
+                    <h1>Reino Animalia</h1>
+                    <strong>
+                        Esta página web abordará conteúdos relacionados ao Reino Animalia, incluindo:
+                        poríferos, cnidários, platelmintos, nematelmintos, moluscos, anelídeos,
+                        artrópodes, equinodermos e cordados.
+                    </strong>
+                </div>
+
+                <div class="right">
+                    <img src="reino-animal-sem-fundo.png" alt="Ilustração do Reino Animalia" />
+                </div>
             </div>
-               <img src="reino-animal-sem-fundo.png" alt="Minha foto" />
-                <strong>Reino animalia</strong>
-            </div>
-            <div class="right">
-                
-        </div>
-    </div>
+        </section>
+
+        <section class="animal-sections" aria-label="Seções dos grupos animais">
+            <article class="animal-section" id="poriferos">
+                <h2>Poríferos</h2>
+                <p>Animais aquáticos simples, como as esponjas, que filtram a água para obter alimento.</p>
+            </article>
+
+            <article class="animal-section" id="cnidarios">
+                <h2>Cnidários</h2>
+                <p>Grupo das águas-vivas, corais e anêmonas, conhecidos por células urticantes usadas na defesa e captura de alimento.</p>
+            </article>
+
+            <article class="animal-section" id="platelmintos">
+                <h2>Platelmintos</h2>
+                <p>Vermes de corpo achatado, com espécies de vida livre e espécies parasitas.</p>
+            </article>
+
+            <article class="animal-section" id="nematelmintos">
+                <h2>Nematelmintos</h2>
+                <p>Vermes cilíndricos, também chamados de nematódeos, encontrados em diversos ambientes.</p>
+            </article>
+
+            <article class="animal-section" id="moluscos">
+                <h2>Moluscos</h2>
+                <p>Grupo de caracóis, lulas, polvos e mexilhões, geralmente com corpo mole e grande diversidade de formas.</p>
+            </article>
+
+            <article class="animal-section" id="anelideos">
+                <h2>Anelídeos</h2>
+                <p>Animais com corpo segmentado em anéis, como minhocas e sanguessugas.</p>
+            </article>
+
+            <article class="animal-section" id="artropodes">
+                <h2>Artrópodes</h2>
+                <p>O maior grupo de animais, incluindo insetos, aracnídeos, crustáceos e miriápodes.</p>
+            </article>
+
+            <article class="animal-section" id="equinodermos">
+                <h2>Equinodermos</h2>
+                <p>Animais marinhos como estrelas-do-mar e ouriços-do-mar, geralmente com espinhos e simetria radial na fase adulta.</p>
+            </article>
+
+            <article class="animal-section" id="cordados">
+                <h2>Cordados</h2>
+                <p>Grupo que inclui peixes, anfíbios, répteis, aves e mamíferos, caracterizado pela presença de notocorda em alguma fase da vida.</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
