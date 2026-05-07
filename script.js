@@ -16,8 +16,6 @@ alert ("Meu nome é " + nome);
 
 const cpf ="1111.111.111-11";  não é possível alterar o valor da variável constante, por isso dará erro - comentario aqui
 
-*/
-
 const idade = 10;
 const pais = "brasil";
 const pais = "ue";
