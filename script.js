@@ -18,8 +18,10 @@ const cpf ="1111.111.111-11";  não é possível alterar o valor da variável co
 
 */
 
-const idade = 16;
+const idade = 10;
+const pais = "brasil";
+const pais = "ue";
 
-if (idade < 17) {
-    alert("você é menor de idade");
+if (idade < 17 && pais == 'brasil' || pais == 'ue' ) {
+    alert("você é menor de idade, se tivesse 17 anos, poderia acessar esse site");
 }
