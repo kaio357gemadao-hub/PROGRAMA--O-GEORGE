@@ -14,6 +14,7 @@ alert("Meu CPF é " + cpf);
 
 alert ("Meu nome é " + nome);
 
+
 const cpf ="1111.111.111-11";  não é possível alterar o valor da variável constante, por isso dará erro - comentario aqui
 
 const idade = 10;
@@ -22,4 +23,13 @@ const pais = "ue";
 
 if (idade < 17 && pais == 'brasil' || pais == 'ue' ) {
     alert("você é menor de idade, se tivesse 17 anos, poderia acessar esse site");
+}
+
+*/
+
+function decrementar() {
+    const elemento = document.querySelector('.counter');
+    const texto = elemento.innerHTML;
+    const valor 
+    console.log(elemento);
 }
